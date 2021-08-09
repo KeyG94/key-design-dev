@@ -69,3 +69,11 @@ small, .text_small {font-size: 0.8rem;}
 .border-btn:hover{
     color: white;
 }
+
+.about-wrap{
+    background-color: rgba(151, 219, 79, 1);
+}
+
+.card{
+    background-color: white;
+}

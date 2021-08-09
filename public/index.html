@@ -26,42 +26,44 @@
             </header>
         </div>
 
-        <div class="content">
-            <main>
-                <!-- Landing content  -->
-                <div class="landing-content">
-                    <h1>Front-end Developer & Designer</h1>
-                    <p class="header-text">I design and build websites from scratch with focus on user experience</p>
-                    <img src="./images/logos/brand-logo.png" alt="brand logo">
-                </div>
-                <div class="hero">
-                    <!-- logo banner -->
-                    <img src="./images/hero_portfolio.png" alt="hero banner background">
-                </div>
-            </main>
+        
+        <main class="container mx-auto mt-20">
+            <!-- Landing content  -->
+            <div class="landing-content text-center">
+                <h1>Front-end Developer & Designer</h1>
+                <p class="header-text">I design and build websites from scratch with focus on user experience</p>
+                <img src="./images/logos/brand-logo.png" class="mx-auto mt-20 mb-20" alt="brand logo">
+            </div>
+            <div class="hero flex justify-center">
+                <!-- logo banner -->
+                <img src="./images/hero_portfolio.png" alt="hero banner background">
+            </div>
+        </main>
 
-            <section class="about-wrap">
+        <section class="about-wrap pt-8 pb-8">
+            <div class="container mx-auto text-center text-white">
                 <!-- introduction  -->
                 <div class="profile-img-wrap">
-                    <div class="profile-img w-20">
-                        <img src="./images/profil_Glenn.png" alt="profile image of author">
+                    <div class="profile-img w-32 mx-auto">
+                        <img src="./images/profil_Glenn_nobckgr.png" class="rounded-full" alt="profile image of author">
                     </div>
                     <h3>Hi I'm Glenn. Nice to meet you</h3>
                 </div>
-                <div class="profile-description">
+                <div class="profile-description pb-24 mb-16">
                     <p>some text about me</p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="card-wrap">
-                <!-- list of skills  -->
-                <ul>
-                    <!-- every individual card has its own list of skillsets -->
-                    <!-- design card -->
-                    <li class="design-card">
-                        <div class="card-top">
+        <section class="card-wrap">
+            <div class="container mx-auto">
+                <div class="lg:flex sm:block lg:max-w-4xl md:max-w-lg w-full mx-auto lg:justify-around lg:-mt-40 md:-mt-40">
+                    <div class="card card-one text-center px-10 py-10 shadow-md">
+                        <div class="card-top lg:h-20 lg:w-52 lg:mb-20">
                             <!-- logo -->
-                            <img src="./images/Icon-design.png" alt="design icon">
+                            <img src="./images/Icon-design.png" class="mx-auto" alt="design icon">
+                        </div>
+                        <div class="card-middle">
                             <h3>Design</h3>
                             <p class="card-paragraph">Descriptive text about design process</p>
                         </div>
@@ -74,12 +76,13 @@
                                 <li>skill 4</li>
                             </ul>
                         </div>
-                    </li>
-                    <!-- front end card -->
-                    <li class="frontend-card">
-                        <div class="card-top">
+                    </div>
+                    <div class="card card-two px-10 py-10 shadow-md lg:mx-2 my-10 lg:my-0 text-center">
+                        <div class="card-top lg:max-h-20 lg:max-w-52 lg:mb-20">
                             <!-- logo -->
-                            <img src="./images/Icon-laptop.png" alt="laptop icon">
+                            <img src="./images/Icon-laptop.png" class="mx-auto" alt="laptop icon">
+                        </div>
+                        <div class="card-middle">
                             <h3>Front-end</h3>
                             <p class="card-paragraph">Descriptive text about front-end focus</p>
                         </div>
@@ -92,12 +95,13 @@
                                 <li>skill 4</li>
                             </ul>
                         </div>
-                    </li>
-                    <!-- backend card -->
-                    <li class="backend-card">
-                        <div class="card-top">
+                    </div>
+                    <div class="card card-three px-10 py-10 shadow-md text-center">
+                        <div class="card-top lg:h-20 lg:w-52 lg:mb-20">
                             <!-- logo -->
-                            <img src="./images/Icon-sandbox.png" alt="backend sandbox icon">
+                            <img src="./images/Icon-sandbox.png" class="mx-auto" alt="backend sandbox icon">
+                        </div>
+                        <div class="card-middle">
                             <h3>Back-end</h3>
                             <p class="card-paragraph">Descriptive text about backend</p>
                         </div>
@@ -110,41 +114,41 @@
                                 <li>skill 4</li>
                             </ul>
                         </div>
-                    </li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent-work-wrap">
+            <!-- list of recent work, highlights -->
+            <div class="work-top">
+                <h3>Recent Work</h3>
+                <p class="subheader-paragraph"></p>
+            </div>
+            <div class="work-bottom">
+                <ul>
+                    <li>Object 1</li>
+                    <li>Object 2</li>
+                    <li>Object 3</li>
                 </ul>
-            </section>
+            </div>
+            <!-- navigation to github account -->
+            <a href="#" class="github-button">github</a>
+        </section>
 
-            <section class="recent-work-wrap">
-                <!-- list of recent work, highlights -->
-                <div class="work-top">
-                    <h3>Recent Work</h3>
-                    <p class="subheader-paragraph"></p>
-                </div>
-                <div class="work-bottom">
-                    <ul>
-                        <li>Object 1</li>
-                        <li>Object 2</li>
-                        <li>Object 3</li>
-                    </ul>
-                </div>
-                <!-- navigation to github account -->
-                <a href="#" class="github-button">github</a>
-            </section>
-
-            <section class="contact-form">
-                <!-- contact form -->
-                <div class="contact-top">
-                    <h3>Contact</h3>
-                    <p class="subheader-paragraph"></p>
-                </div>
-                <div class="form">
-                    <input type="text" name="name" id="name">
-                    <input type="email" name="email" id="email">
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    <button type="submit">Submit</button>
-                </div>
-            </section>
-        </div>
+        <section class="contact-form">
+            <!-- contact form -->
+            <div class="contact-top">
+                <h3>Contact</h3>
+                <p class="subheader-paragraph"></p>
+            </div>
+            <div class="form">
+                <input type="text" name="name" id="name">
+                <input type="email" name="email" id="email">
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <button type="submit">Submit</button>
+            </div>
+        </section>
     </body>
     <footer>
         <div class="footer-wrap">
