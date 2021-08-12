@@ -155,22 +155,37 @@
             <!-- navigation to github account -->
         </section>
 
-        <section class="contact-form">
+        <section class="contact-form py-6 mx-auto container text-center">
             <!-- contact form -->
             <div class="contact-top">
                 <h3>Contact</h3>
-                <p class="subheader-paragraph"></p>
+                <p class="subheader-paragraph">I wish to hear ... cooperation</p>
             </div>
-            <div class="form">
-                <input type="text" name="name" id="name">
-                <input type="email" name="email" id="email">
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                <button type="submit">Submit</button>
+            <div class="form flex flex-col mx-auto">
+                <div class="input-top my-2 flex justify-between">
+                    <div class="name-input text-left">
+                        <p>Name</p>
+                        <input type="email" name="email" id="email" class="px-2 py-1 outline-none">
+                    </div>
+                    <div>
+                        <div class="email-input text-left">
+                            <p>Email</p>
+                            <input type="text" name="name" id="name" class="px-2 py-1 outline-none">
+                        </div>
+                    </div>
+                </div>
+                <div class="input-bottom text-left mt-6">
+                    <p>Message</p>
+                    <textarea name="message" id="message"  class="px-2 py-1 w-full h-96 resize-none overflow-scroll outline-none"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
             </div>
         </section>
     </body>
     <footer>
-        <div class="footer-wrap">
+        <div class="footer-wrap bg-gray-700 py-6">
             <!-- logo  -->
             <img src="./images/logos/brand-logo_white.png" alt="brand logo white"> 
             <div class="social-media-links">

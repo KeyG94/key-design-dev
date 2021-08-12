@@ -142,3 +142,19 @@ small, .text_small {font-size: 0.8rem;}
 .work-img:hover{
     transition: ease 0.2s;
   }
+
+  .form{
+      max-width: 400px;
+  }
+
+  .contact-form input, textarea{
+      border: 1px solid grey;
+  }
+
+  .submit-btn{
+      background-color: rgba(151, 219, 79, 1);
+      color: white;
+      padding: 10px 30px;
+      border-radius: 25px;
+      margin-top: 1em;
+  }
