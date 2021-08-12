@@ -119,21 +119,40 @@
             </div>
         </section>
 
-        <section class="recent-work-wrap">
+        <section class="recent-work-wrap container mx-auto">
             <!-- list of recent work, highlights -->
-            <div class="work-top">
+            <div class="work-top text-center my-10">
                 <h3>Recent Work</h3>
-                <p class="subheader-paragraph"></p>
+                <p class="subheader-paragraph">Most recent work to check out</p>
             </div>
-            <div class="work-bottom">
-                <ul>
-                    <li>Object 1</li>
-                    <li>Object 2</li>
-                    <li>Object 3</li>
+            <div class="work-bottom w-full flex flex-col">
+
+                <ul class="md:flex md:flex-wrap md:justify-between w-3/4 md:max-w-full mx-auto overflow-hidden rounded-2xl">
+                    <a href="#" target="_blank" class="relative list-relative">
+                        <img src="./images/logos/brand-small_black-bckgrnd.png" alt="example" class="work-img mx-auto max-h-60 md:w-44 my-4 object-cover">
+                        <div class="img-overlay">
+                            <div>View</div>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="relative list-relative">
+                        <img src="./images/logos/brand-small_black-bckgrnd.png" alt="example" class="work-img mx-auto max-h-60 md:w-44 my-4 object-cover">
+                        <div class="img-overlay">
+                            <div>View</div>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="relative list-relative">
+                        <img src="./images/logos/brand-small_black-bckgrnd.png" alt="example" class="work-img mx-auto max-h-60 md:w-44 my-4 object-cover">
+                        <div class="img-overlay">
+                            <div>View</div>
+                        </div>
+                    </a>
                 </ul>
+                <!-- button to github -->
+                <div class="flex justify-center my-6">
+                    <a href="https://github.com/KeyG94" target="_blank" class="github-button px-6 py-1 rounded-full mx-auto">See github</a>
+                </div>
             </div>
             <!-- navigation to github account -->
-            <a href="#" class="github-button">github</a>
         </section>
 
         <section class="contact-form">
