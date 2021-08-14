@@ -92,7 +92,7 @@ small, .text_small {font-size: 0.8rem;}
 }
 
 .img-overlay {
-    transition: .5s ease;
+    transition: .7s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -104,26 +104,22 @@ small, .text_small {font-size: 0.8rem;}
 
   @media  screen and (max-width: 767px) {
     .work-img{
-        min-width: 600px;
+        width:400px
     }
-    
-      .img-overlay{
-        top: 50%;
-        left: 50%;
-        transform: translate(130%, 210%);
-        -ms-transform: translate(130%, 210%);
-      }
   }
 
   .work-img{
       filter: grayscale(.95);
-      object-position: center;
+      filter: brightness(.7);
       object-fit: cover;
+      border-radius: 15px;
+
   }
 
  .list-relative:hover .work-img {
     opacity: 1;
     filter:grayscale(0);
+    filter: brightness(1);
  }
 
  .list-relative:hover .img-overlay{

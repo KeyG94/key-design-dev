@@ -10,16 +10,16 @@
     </head>
     <body>
         <div class="container mx-auto">
-            <header>
+            <header id="top">
                 <nav>
                     <div class="navbar-wrap max-h-16 flex justify-between min-w-full pt-4">
                         <div class="w-10">
-                            <img src="./images/logos/Brand-small.png" alt="Key-design brand logo original color small">
+                            <a href="#top"><img src="./images/logos/Brand-small.png" alt="Key-design brand logo original color small"></a>
                         </div>
                         <!-- navigation  -->
                         <ul class="flex justify-center">
-                            <li class="filled-btn nav-btn mr-2 p-2"><a href="#" class="">Work</a></li>
-                            <li class="border-btn nav-btn mr-2 p-2"><a href="#" class="">Contact</a></li>
+                            <li class="filled-btn nav-btn mr-2 p-2"><a href="#work" class="">Work</a></li>
+                            <li class="border-btn nav-btn mr-2 p-2"><a href="#contact" class="">Contact</a></li>
                         </ul>
                     </div>
                 </nav> 
@@ -119,31 +119,55 @@
             </div>
         </section>
 
-        <section class="recent-work-wrap container mx-auto">
+        <section class="recent-work-wrap container mx-auto" id="work">
             <!-- list of recent work, highlights -->
             <div class="work-top text-center my-10">
                 <h3>Recent Work</h3>
                 <p class="subheader-paragraph">Most recent work to check out</p>
             </div>
-            <div class="work-bottom w-full flex flex-col">
+            <div class="work-bottom flex flex-col container">
 
-                <ul class="md:flex md:flex-wrap md:justify-between w-3/4 md:max-w-full mx-auto overflow-hidden rounded-2xl">
-                    <a href="#" target="_blank" class="relative list-relative">
-                        <img src="./images/logos/brand-small_black-bckgrnd.png" alt="example" class="work-img mx-auto max-h-60 md:w-44 my-4 object-cover">
-                        <div class="img-overlay">
-                            <div>View</div>
+                <ul class="md:flex md:flex-wrap md:justify-between w-full md:w-full mx-auto rounded-2xl">
+                    <a href="./nasa/index.html" target="_blank" class="list-relative text-center">
+                        <div class="relative">
+                            <h4>Nasa Project</h4>
+                            <img src="./images/nasa.png" alt="preview of nasa page" class="work-img mx-auto h-44 md:w-48 my-4">
+                            <div class="img-overlay">
+                                <div>View</div>
+                            </div>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS/Sass</li>
+                                <li>Javascript</li>
+                            </ul>
                         </div>
                     </a>
-                    <a href="#" target="_blank" class="relative list-relative">
-                        <img src="./images/logos/brand-small_black-bckgrnd.png" alt="example" class="work-img mx-auto max-h-60 md:w-44 my-4 object-cover">
-                        <div class="img-overlay">
-                            <div>View</div>
+                    <a href="#" target="_blank" class="list-relative text-center">
+                        <div class="relative">
+                            <h4>Project</h4>
+                            <img src="./images/logos/brand-small_black-bckgrnd.png" alt="example" class="work-img mx-auto h-44 md:w-48 my-4">
+                            <div class="img-overlay">
+                                <div>View</div>
+                            </div>
+                            <ul>
+                                <li>skill</li>
+                                <li>skill</li>
+                                <li>skill</li>
+                            </ul>
                         </div>
                     </a>
-                    <a href="#" target="_blank" class="relative list-relative">
-                        <img src="./images/logos/brand-small_black-bckgrnd.png" alt="example" class="work-img mx-auto max-h-60 md:w-44 my-4 object-cover">
-                        <div class="img-overlay">
-                            <div>View</div>
+                    <a href="#" target="_blank" class="list-relative text-center">
+                        <div class="relative">
+                            <h4>Project</h4>
+                            <img src="./images/logos/brand-small_black-bckgrnd.png" alt="example" class="work-img mx-auto h-44 md:w-48 my-4">
+                            <div class="img-overlay">
+                                <div>View</div>
+                            </div>
+                            <ul>
+                                <li>skill</li>
+                                <li>skill</li>
+                                <li>skill</li>
+                            </ul>
                         </div>
                     </a>
                 </ul>
@@ -155,7 +179,7 @@
             <!-- navigation to github account -->
         </section>
 
-        <section class="contact-form py-6 mx-auto container text-center">
+        <section class="contact-form py-6 mx-auto container text-center" id="contact">
             <!-- contact form -->
             <div class="contact-top">
                 <h3>Contact</h3>

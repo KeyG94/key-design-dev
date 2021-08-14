@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Media page, nasa microsite media page. Libaries and latest from nasa and nasa tv. Follow ISS around earth.">
+    <meta name="keywords" content="landing, microsite, space, spaceX, nasa, guide, mars, astronomy, pic of the day, matter, dark, educational, children, knowledge, science, asteroids, picture, libary, empty, nothing, world, deep space, star, sun, asteroid, satelite, iss, livestream, youtube, launch america, kennedy space station, space launch, space landings, earth, tella, people in space, contact, gmt, clock, real time, space media, rover, mars rover, mars-rover, mars mission, rover-mission, mars rover photos, adventure twins, opportunity, faith, UTC, date, sprit, moon, nasatv, flight, july, may, june, august, galleries, social media, google earth, Jet Propulsion Technology, California Institute of Technology, asteroids near earth, api, astronauts, Bob Behnken, Doug Hurley, Crew Dragon, space station">
+    <link rel="stylesheet" type="text/css" href="./css/globalStyle.css">
+    <link rel="stylesheet" type="text/css" href="./css/media.css">
+    <title>Nasa | Media page, search for your space activites content, view images and latest videos about nasa and spaceX</title>
+</head>
+<body>
+    <!--global navigation-->
+    <nav class="navbar">
+        <div class="container">
+            <div class="hamburger">
+                <div class="line1 line"></div>
+                <div class="line2 line"></div>
+                <div class="line3 line"></div>
+            </div>
+            <ul>
+                <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="./space.html" class="nav-link ">Space</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">Media</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--navigation for larger screens/desktops-->
+    <div class="large-screen-nav" id="large-screen-nav">
+        <ul>
+            <li class="nav-item-lg"><a href="./index.html" class="nav-link-lg">Home</a></li>
+            <li class="nav-item-lg"><a href="./space.html" class="nav-link-lg">Space</a></li>
+            <li class="nav-item-lg"><a href="./contact.html" class="nav-link-lg">Contact</a></li>
+            <li class="nav-item-lg"><a href="#" class="nav-link-lg  active">Media</a></li>
+        </ul> 
+    </div>
+    <!--end of global navigation-->
+    <div class="latest-video" id="latest-video">
+        <div class="top-filter"></div>
+        <iframe id="yt-video-head" class="video" src="https://www.youtube.com/embed/EEIk7gwjgIM?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="bottom-filter"></div>
+    </div>
+    <div class="title">
+        <h1>Earth from Space</h1>
+        <h2>Nasa Livestream from ISS</h2>
+    </div>
+    <div class="toggle" id="toggle">
+       <a href="#" class="active-toggle clear-text" id="latest" onclick="toggleClick('latest')">Latest</a>
+       <span id="vertical-line"></span>
+       <a href="#" class="clear-text" id="images" onclick="toggleClick('images')">Images</a>
+    </div>
+    <!--Latest tab---->
+    <div class="latest-container" id="latest-container">
+        <div class="apod-wrap" id="apod-wrap"></div>
+        <div class="latest" id="latest-section">
+            <h3>Latest</h3>
+            <div class="frame-container">
+                <iframe class="video-feed" src="https://www.youtube.com/embed/5EgRrAK8_HQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h4>NASA and SpaceX prepare to #LaunchAmerica</h4>
+            <p>Together with SpaceX, NASA will return human spaceflight to American soil after nearly a decade. SpaceX will launch people into space for the first time ever with astronauts Bob Behnken and Doug Hurley on board Crew Dragon, which will dock to the International Space Station.</p>
+        </div>
+        <div class="timeline" >
+            <h3>Launches and Landings</h3>
+            <div class="button-wrap" id="create-button">
+                <button id="timeline-button">Load Content</button>
+            </div>
+            <ul id="timeline">
+                <!--cards of launches-->
+            </ul>
+        </div>
+    </div>
+    <!--images tab-->
+    <div class="images-tab display-none" id="images-tab">
+        <div class="search-box">
+            <h2>Image libary</h2>
+            <input type="search" class="search-bar" id="search-bar" placeholder="Search...">
+        </div>
+        <div class="image-content" id="image-content">
+            <!--images from search bar come here-->
+        </div>
+    </div>
+</body>
+<script src="./js/app-navi.js"></script>
+<script src="./js/app-media.js"></script>
+</html>

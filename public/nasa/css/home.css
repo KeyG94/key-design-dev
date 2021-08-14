@@ -1,0 +1,76 @@
+.background-top {
+	min-height: min-content;
+	background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url('../images/Background/selfieSpace.png');
+	/*Possible pic of day*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.gmt {
+	font-size: 18px;
+	margin: 0 0 5px;
+	text-shadow: 1px 1px 3px black;
+}
+
+.box {
+	width: 100%;
+	height:100vh;
+	max-height: 100vh;
+	align-content: center;
+	text-align: center;
+}
+
+.box h1 {
+	font-size: 90px;
+	text-shadow: 3px 3px 8px black;
+}
+
+.navigation-home li {
+	font-size: 45px;
+	margin: 50px 0;
+}
+
+@media only screen and (max-width: 1023px){
+	.box h1 {
+		font-size: 70px;
+	}
+	
+	.navigation-home li {
+		font-size: 30px;
+	}
+}
+
+.people-in-space {
+	font-size: 14px;
+	text-shadow: 1px 1px 3px black;
+}
+
+@media only screen and (min-width: 1023px) {
+	.navigation-home {
+		display: flex;
+		justify-content: space-evenly;
+		padding: 10px;
+		align-items: center;
+		list-style: none;
+		font-size: 50px;
+	}
+
+	.people-in-space{
+		margin-top: 15%;
+	}
+}
+
+.link {
+	text-decoration: none;
+	text-shadow: 2px 2px 6px black;
+}
+
+.link:active {
+	color: #01a7c2;
+}
+
+.link:hover {
+	color: #01a7c2;
+}
