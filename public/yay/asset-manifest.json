@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c3daee27.chunk.css",
+    "main.js": "/static/js/main.1f062a4f.chunk.js",
+    "main.js.map": "/static/js/main.1f062a4f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.df4e2a1b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.df4e2a1b.js.map",
+    "static/js/2.d892e5d8.chunk.js": "/static/js/2.d892e5d8.chunk.js",
+    "static/js/2.d892e5d8.chunk.js.map": "/static/js/2.d892e5d8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ea378066ca722aafb4663b225776b10c.js": "/precache-manifest.ea378066ca722aafb4663b225776b10c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c3daee27.chunk.css.map": "/static/css/main.c3daee27.chunk.css.map",
+    "static/js/2.d892e5d8.chunk.js.LICENSE.txt": "/static/js/2.d892e5d8.chunk.js.LICENSE.txt",
+    "static/media/carousel-1.jpg": "/static/media/carousel-1.e1b1056e.jpg",
+    "static/media/carousel-2.jpg": "/static/media/carousel-2.b18a8f48.jpg",
+    "static/media/carousel-3.jpg": "/static/media/carousel-3.a91fbf03.jpg",
+    "static/media/news-1.png": "/static/media/news-1.e529e563.png",
+    "static/media/news-2.png": "/static/media/news-2.d28607c9.png",
+    "static/media/news-3.png": "/static/media/news-3.e33047c8.png",
+    "static/media/news-4.png": "/static/media/news-4.94c040b7.png",
+    "static/media/news-5.png": "/static/media/news-5.15a61f1c.png",
+    "static/media/news-6.png": "/static/media/news-6.defa8da3.png",
+    "static/media/news-7.png": "/static/media/news-7.47d172f4.png",
+    "static/media/news-8.png": "/static/media/news-8.00b2d8c5.png",
+    "static/media/tab-image1.png": "/static/media/tab-image1.0c00ab9a.png",
+    "static/media/styles.scss": "/static/media/tvHeader.a31d3ec8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df4e2a1b.js",
+    "static/js/2.d892e5d8.chunk.js",
+    "static/css/main.c3daee27.chunk.css",
+    "static/js/main.1f062a4f.chunk.js"
+  ]
+}
