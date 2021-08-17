@@ -147,6 +147,10 @@ small, .text_small {font-size: 0.8rem;}
       border: 1px solid grey;
   }
 
+  textarea{
+      width: 100%;
+  }
+
   .submit-btn{
       background-color: rgba(151, 219, 79, 1);
       color: white;
